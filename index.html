@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+<script type="application/javascript" src="storage.js"></script>
+<script type="application/javascript">
+
+  /**
+   * optional, the default storage name is 'browserStorageManagement'
+   */
+  lStorage.setStorageName('YOUR_LOCAL_STORAGE_NAME');
+
+  lStorage.create('your_key_1', 'Your Value');
+
+  lStorage.create('your_key_2', [0, 2, 3]);
+
+  lStorage.create('your_key_3', {
+    dataKey: 'value1'
+  });
+
+//  lStorage.update('your_key_1', 'Your other value');
+
+//  if you want delete all cookie
+//  localStorage.delete();
+
+</script>
+</body>
+</html>

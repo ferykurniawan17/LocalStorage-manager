@@ -1,0 +1,22 @@
+{
+  "name": "browser-storage-management",
+  "version": "1.0.0",
+  "description": "browser storage management",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
+  },
+  "keywords": [
+    "localstorage",
+    "cookie",
+    "storage"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0"
+  },
+  "author": "ferykurniawan17",
+  "license": "ISC"
+}
