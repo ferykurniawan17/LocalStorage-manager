@@ -2,7 +2,7 @@
 
 ## How to use
 
-```<script type="application/javascript" src="storage.min.js"></script>```
+```<script type="application/javascript" src="lStorage.min.js"></script>```
 
 ### change local storage name (optional) ###
 

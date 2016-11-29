@@ -10,13 +10,13 @@ module.exports = function (grunt) {
 					'development/Storage.js',
 					'development/common.js'
 				],
-				dest: 'storage.js'
+				dest: 'lStorage.js'
 			}
 		},
 		uglify: {
 			my_target: {
 				files: {
-					'storage.min.js': ['storage.js']
+					'lStorage.min.js': ['lStorage.js']
 				}
 			}
 		}
